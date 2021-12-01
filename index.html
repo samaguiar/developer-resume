@@ -17,25 +17,26 @@
             <h3>Developer</h3>
         </section>
         <section class="headChild">
-            <nav>
-                <button id="hamburgerBtn">&#9776;</button>
-                <ul id="primaryNav">
-                    <li class="active"><a href="">#</a></li>
-                    <li class=""><a href="">#</a></li>
-                    <li class=""><a href="">#</a></li>
-                    <li class=""><a href="">#</a></li>
-                    <li class=""><a href="">#</a></li>
-                </ul>
-            </nav>
+           
         </section>
     </header>
     <main>
         <section class="intro">
+        <nav>
+            <button id="hamburgerBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li class="active"><a href="">#</a></li>
+                <li class=""><a href="">#</a></li>
+                <li class=""><a href="">#</a></li>
+                <li class=""><a href="">#</a></li>
+                <li class=""><a href="">#</a></li>
+            </ul>
+        </nav>
             <img class="headshot introChild" src="img/IMG_4001.jpg">
             <h1 class="introChild">Samantha Aguiar</h1>
             <div class="introChild">
                 <button>Teacher</button>
-                <label class="switch">
+                <label class="switch" id="switch_id">
                     <input type="checkbox">
                     <span class="slider round"></span>
                 </label>
@@ -44,42 +45,60 @@
         </section>
 
         <section class="aboutMe">
-            <h2>About Me</h2>
-            <p>Enthusiatic and detail-oriented Frontend web developer
+            <div class="aboutChild">
+                <h2>About Me</h2>
+            </div>
+            <div class="aboutChild">
+                <p>Enthusiatic and detail-oriented Frontend web developer
                 Experienced in HTML, CSS, and Java Script. Deep understanding of 
                 accessibility, moblie-first design, UX design, and debugging.
                 Quick learner and decidated learner to new technologies; successful working in teams
                 and self-directed setting. </p>
+            </div>
         </section>
 
-        <section class="education">
-            <div>
-                <h2>Centre College</h2>
-                <h3>Danville, KY</h3>
-                <p>Graduated in May 2016 with a Bachelor in Science in Mathematics</p>
-            </div>
-            <div>
-                <h2>Code Louisville</h2>
-                <h3>Louisville, KY</h3>
-                <p>Graduated in Frontend developement cohort in November 2021.</p>
-            </div>
-        </section>
+        
 
         <section class="projects">
             <h2>Projects</h2>
+            <h4>PawCity Pet Store</h4>
+            <h4>Coffee Shope</h4>
+            <h4>Sleeping Dog Homebrew</h4>
+            <h4>Grudge</h4>
+        </section>
+
+        <section class="techSkills">
+            <h2>Technical Skills</h2>
+            <h4>HTML</h4>
+            <h4>CSS</h4>
+            <h4>JavaScript</h4>
+            <h4>Python</h4>
         </section>
 
         <section class="softSkills">
             <h2>Soft Skills</h2>
         </section>
 
-        <section class="softSkills">
-            <h2>Technical Skills</h2>
+
+        <section class="education">
+            <div class="eduChild">
+                <h2>Education</h2>
+            </div>
+            <div class="eduChild">
+                <h3>Centre College</h3>
+                <h4>Danville, KY</h4>
+                <p>Graduated in May 2016 with a Bachelor in Science in Mathematics</p>
+            </div>
+            <div class="eduChild">
+                <h3>Code Louisville</h3>
+                <h4>Louisville, KY</h4>
+                <p>Graduated in Frontend developement cohort in November 2021.</p>
+            </div>
         </section>
     </main>
 
     <footer>
-        <div>
+        <div class="footChild">
             <h2>Samantha Aguiar</h2>
         </div>
         <div>
@@ -89,7 +108,7 @@
             <span class="dot"></span>
             <span class="dot"></span>
         </div>
-        <div>
+        <div class="footChild">
             <h3>Developer</h3>
             <ul>
                 <li>About Me</li>
@@ -99,7 +118,7 @@
                 <li>LinkedIn</li>
             </ul>
         </div>
-        <div>
+        <div class="footChild">
             <form>
                 <h3>Contact Me</h3>
                 <input>
@@ -108,6 +127,6 @@
             </form>
         </div>
     </footer>
-
+    <script src="java/script.js"></script>
 </body>
 </html>
